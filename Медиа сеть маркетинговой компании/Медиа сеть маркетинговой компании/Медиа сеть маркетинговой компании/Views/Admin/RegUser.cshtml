@@ -1,0 +1,25 @@
+﻿@model Медиа_сеть_маркетинговой_компании.Models.RegisterModel
+@{
+    ViewBag.Title = "Редактирование профиля";
+    Layout = "~/Views/Shared/_LayoutRooms1.cshtml";
+    ViewBag.Section_Title = "Добавление нового пользователя";
+    ViewBag.Title = "Административная панель";
+}
+@using (Html.BeginForm())
+{
+    <fieldset style="width:30%; float:left;">
+            @Html.LabelFor(u => u.Name)<br>
+            @Html.TextBoxFor(u => u.Name)<br>
+            @Html.LabelFor(u => u.Password)<br>
+            @Html.PasswordFor(u => u.Password)<br>
+            @Html.LabelFor(u => u.ConfirmPassword)<br>
+            @Html.PasswordFor(u => u.ConfirmPassword)<br>
+            @Html.LabelFor(u => u.FName)<br>
+            @Html.EditorFor(u => u.FName)<br>
+            @Html.LabelFor(u => u.LName)<br>
+            @Html.EditorFor(u => u.LName)<br>
+            @Html.LabelFor(u => u.Age)<br>
+            @Html.EditorFor(u => u.Age)<br>
+        <input type="submit" value="okey" />
+        </fieldset>
+}

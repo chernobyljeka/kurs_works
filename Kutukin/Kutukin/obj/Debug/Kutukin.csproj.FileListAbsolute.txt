@@ -1,0 +1,16 @@
+D:\VS\Kutukin\Kutukin\bin\Debug\Kutukin.exe.config
+D:\VS\Kutukin\Kutukin\bin\Debug\Kutukin.exe
+D:\VS\Kutukin\Kutukin\bin\Debug\Kutukin.pdb
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.Form1.resources
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.Properties.Resources.resources
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.csproj.GenerateResource.Cache
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.exe
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.pdb
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.AboutBox1.resources
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.add_edit.resources
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.edit.resources
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.uslugi_add.resources
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.tech_add.resources
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.Clients.resources
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.Client_add.resources
+D:\VS\Kutukin\Kutukin\obj\Debug\Kutukin.csprojResolveAssemblyReference.cache

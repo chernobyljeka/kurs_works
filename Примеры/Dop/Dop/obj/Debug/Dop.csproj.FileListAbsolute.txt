@@ -1,0 +1,9 @@
+E:\VS\Dop\Dop\bin\Debug\Dop.exe.config
+E:\VS\Dop\Dop\bin\Debug\Dop.exe
+E:\VS\Dop\Dop\bin\Debug\Dop.pdb
+E:\VS\Dop\Dop\obj\Debug\Dop.Form1.resources
+E:\VS\Dop\Dop\obj\Debug\Dop.Properties.Resources.resources
+E:\VS\Dop\Dop\obj\Debug\Dop.csproj.GenerateResource.Cache
+E:\VS\Dop\Dop\obj\Debug\Dop.exe
+E:\VS\Dop\Dop\obj\Debug\Dop.pdb
+E:\VS\Dop\Dop\obj\Debug\Dop.csprojResolveAssemblyReference.cache

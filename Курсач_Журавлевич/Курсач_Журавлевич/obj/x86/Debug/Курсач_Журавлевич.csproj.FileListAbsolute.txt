@@ -1,0 +1,21 @@
+c:\users\ded\documents\visual studio 2013\Projects\Курсач_Журавлевич\Курсач_Журавлевич\bin\Debug\Курсач_Журавлевич.exe.config
+c:\users\ded\documents\visual studio 2013\Projects\Курсач_Журавлевич\Курсач_Журавлевич\bin\Debug\Курсач_Журавлевич.exe
+c:\users\ded\documents\visual studio 2013\Projects\Курсач_Журавлевич\Курсач_Журавлевич\bin\Debug\Курсач_Журавлевич.pdb
+c:\users\ded\documents\visual studio 2013\Projects\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.Main.resources
+c:\users\ded\documents\visual studio 2013\Projects\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.Properties.Resources.resources
+c:\users\ded\documents\visual studio 2013\Projects\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.csproj.GenerateResource.Cache
+c:\users\ded\documents\visual studio 2013\Projects\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.exe
+c:\users\ded\documents\visual studio 2013\Projects\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.pdb
+c:\users\ded\documents\visual studio 2013\Projects\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.csprojResolveAssemblyReference.cache
+E:\Курсач_Журавлевич\Курсач_Журавлевич\bin\Debug\Курсач_Журавлевич.exe.config
+E:\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.exe
+E:\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.pdb
+E:\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.Main.resources
+E:\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.Properties.Resources.resources
+E:\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.csproj.GenerateResource.Cache
+E:\Курсач_Журавлевич\Курсач_Журавлевич\bin\Debug\Курсач_Журавлевич.exe
+E:\Курсач_Журавлевич\Курсач_Журавлевич\bin\Debug\Курсач_Журавлевич.pdb
+E:\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.add_and_edit.resources
+E:\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.del.resources
+E:\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.about.resources
+E:\Курсач_Журавлевич\Курсач_Журавлевич\obj\x86\Debug\Курсач_Журавлевич.csprojResolveAssemblyReference.cache

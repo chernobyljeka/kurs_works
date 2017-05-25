@@ -1,0 +1,459 @@
+﻿@model List<Медиа_сеть_маркетинговой_компании.Models.Advert>
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Административная панель</title>
+
+    <link rel="stylesheet" href="~/Content/mediaadmin/css/layout.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/Content/mediaadmin/css/styles.css">
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="~/Content/mediaadmin/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="~/Content/mediaadmin/js/hideshow.js" type="text/javascript"></script>
+    <script src="~/Content/mediaadmin/js/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="~/Content/mediaadmin/js/jquery.equalHeight.js"></script>
+
+
+    <script src="~/Content/mediaadmin/js/highcharts.js"></script>
+    <script src="~/Content/mediaadmin/js/customEvents.js"></script>
+
+    <script type="text/javascript">
+	$(document).ready(function()
+    	{
+      	  $(".tablesorter").tablesorter();
+   	 }
+	);
+	$(document).ready(function() {
+
+	//When page loads...
+	$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content:first").show(); //Show first tab content
+
+	//On Click Event
+	$("ul.tabs li").click(function() {
+
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+
+		var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active ID content
+		return false;
+	});
+
+});
+    </script>
+    <script type="text/javascript">
+    $(function(){
+        $('.column').equalHeight();
+    });
+    </script>
+
+</head>
+
+
+<body>
+
+    <header id="header">
+        <hgroup>
+            <h1 class="site_title"><a href="../Admin/Index">Админ. панель</a></h1>
+            <h2 class="section_title">Список объявлений</h2>
+            <div class="btn_view_site"><a href="../Home/Index">На сайт</a></div>
+        </hgroup>
+    </header> <!-- end of header bar -->
+
+    <section id="secondary_bar">
+        <div class="breadcrumbs_container">
+            <article class="breadcrumbs"><a href="../Admin/Index">Админ. панель</a> <div class="breadcrumb_divider"></div> <a class="current">Доска объявлений</a></article>
+        </div>
+    </section><!-- end of secondary bar -->
+
+    <aside id="sidebar" class="column">
+        <hr />
+        <h3>Реклама</h3>
+        <ul class="toggle">
+            <li class="icn_Categories"><a href="../Admin/Index">Список объявлений</a></li>
+            <li class="icn_Categories"><a href="../Admin/ListCat">Список категорий</a></li>
+            <li class="icn_Categories"><a href="../Admin/Stats">Статистика</a></li>
+        </ul>
+
+        <h3>Пользователи</h3>
+        <ul class="toggle">
+            <li class="icn_add_user"><a href="../Admin/RegUser">Зарегистрировать</a></li>
+            <li class="icn_view_users"><a href="../Admin/ListUsers">Список пользователей</a></li>
+        </ul>
+        <h3>Профиль</h3>
+        <ul class="toggle">
+            <li class="icn_settings"><a href="#">Общие настройки</a></li>
+            <li class="icn_security"><a href="#">Безопасность</a></li>
+            <li class="icn_jump_back"><a href="#">Выход</a></li>
+        </ul>
+
+        <footer>
+            <hr />
+            <p><strong>Copyright &copy; 2015 Ded&Bond </strong></p>
+            <p><a href="#">Медиасеть маркетинговой компании</a></p>
+        </footer>
+    </aside><!-- end of sidebar -->
+
+    <section id="main" class="column">
+
+        <h4 class="alert_info">Добро пожаловать в Админ. панель</h4>
+
+        <article class="module width_3_quarter">
+            <header>
+                <h3 class="tabs_involved">Списсок обьявлений</h3>
+                <ul class="tabs">
+                    <li><a href="#tab1">Обьявления</a></li>
+                </ul>
+            </header>
+
+            <div class="tab_container">
+                <div id="tab1" class="tab_content">
+                    <table class="tablesorter" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>№</th>
+                                <th>Сообщение</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Медиа_сеть_маркетинговой_компании.Models.Advert m in Model)
+                            {
+                                <tr>
+                                    <td>@m.id</td>
+                                    <td>@m.msg</td>
+                                    </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div><!-- end of #tab1 -->
+            </div><!-- end of .tab_container -->
+
+        </article><!-- end of content manager article -->
+
+        <article class="module width_quarter">
+            <header><h3>Общий чат</h3></header>
+            <div class="message_list">
+                <div class="module_content">
+                    <div class="message">
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.</p>
+                        <p><strong>John Doe</strong></p>
+                    </div>
+                    <div class="message">
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor.</p>
+                        <p><strong>John Doe</strong></p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <form class="post_message">
+                    <input type="text" value="Отправить" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+                    <input type="submit" class="btn_post_message" value="" />
+                </form>
+            </footer>
+        </article><!-- end of messages article -->
+
+        <div class="clear"></div>
+        <div class="spacer"></div>
+    </section>
+
+    <script>
+$(function () {
+    var lastUpdate = +new Date(),
+        timeout = 3000;
+
+    function reloadFlash() {
+        $("#flash").fadeIn();
+        lastUpdate = +new Date();
+        setTimeout(hideFlash, timeout);
+    }
+
+    function hideFlash() {
+        var now = +new Date();
+        if (now >= lastUpdate + timeout) {
+            $("#flash").fadeOut();
+        }
+    }
+
+    $('#chart').highcharts({
+        chart: {
+            renderTo: 'chart',
+            borderWidth: 5,
+            borderColor: '#e8eaeb',
+            borderRadius: 0,
+            backgroundColor: '#f7f7f7',
+            marginTop: 70,
+            events: {
+                load: function () {
+                    //add report div
+                    var ch = this,
+                        x = 20,
+                        y = 57;
+
+                    ch.flashText = ch.renderer.text('<div id="flash"><div id="report"></div></div>', x , y +10, true).attr({
+                        zIndex: 101
+                    }).add();
+                }
+            }
+        },
+        title: {
+            style: {
+                'fontSize': '1em'
+            },
+            useHTML: true,
+            align: 'left',
+            x: -5,
+            y: 8,
+            text: '<span class="chart-title"> Custom events <span>',
+            events: {
+                dblclick: function () {
+                    reloadFlash();
+                    $('#report').html('dbclick on title');
+                },
+                click: function () {
+                    reloadFlash();
+                    $('#report').html('click on title');
+                },
+                contextmenu: function () {
+                    reloadFlash();
+                    $('#report').html('context menu on title ');
+                }
+            }
+        },
+        yAxis: [{
+        	title: {
+                text: 'Values',
+                events: {
+                    dblclick: function () {
+                        reloadFlash();
+                        $('#report').html('dbclick on yAxis title');
+                    },
+                    click: function () {
+                        reloadFlash();
+                        $('#report').html('click on yAxis title');
+                    },
+                    contextmenu: function () {
+                        reloadFlash();
+                        $('#report').html('context menu on yAxis title');
+                    }
+                }
+            },
+            plotLines: [{
+                color: '#a4c08e',
+                width: 10,
+                value: 70,
+                events: {
+                    dblclick: function () {
+                        reloadFlash();
+                        $('#report').html('dbclick on plotline');
+                    },
+                    click: function () {
+                        reloadFlash();
+                        $('#report').html('click on plotline');
+                    },
+                    contextmenu: function () {
+                        reloadFlash();
+                        $('#report').html('context menu on plotline');
+                    }
+                }
+            }],
+            plotBands: [{ // mark the weekend
+                color: '#FCFFC5',
+                from: 100,
+                to: 200,
+                events: {
+                    dblclick: function () {
+                        reloadFlash();
+                        $('#report').html('dbclick on plotband');
+                    },
+                    click: function () {
+                        reloadFlash();
+                        $('#report').html('click on plotband');
+                    },
+                    contextmenu: function () {
+                        reloadFlash();
+                        $('#report').html('context menu on plotband');
+                    }
+                }
+            }],
+            labels: {
+                events: {
+                    dblclick: function () {
+                        reloadFlash();
+                        $('#report').html('dbclick on yAxis label');
+                    },
+                    click: function () {
+                        reloadFlash();
+                        $('#report').html('click on yAxis label');
+                    },
+                    contextmenu: function () {
+                        reloadFlash();
+                        $('#report').html('context menu on yAxis label');
+                    }
+                }
+            }
+        }, {
+            opposite: true,
+            linkedTo: 0,
+            title: {
+                text: 'Values',
+                events: {
+                    dblclick: function () {
+                        reloadFlash();
+                        $('#report').html('dbclick on yAxis2 title');
+                    },
+                    click: function () {
+                        reloadFlash();
+                        $('#report').html('click on yAxis2 title');
+                    },
+                    contextmenu: function () {
+                        reloadFlash();
+                        $('#report').html('context menu on yAxis2 title');
+                    }
+                }
+            },
+            labels: {
+                events: {
+                    dblclick: function () {
+                        reloadFlash();
+                        $('#report').html('dbclick on second yAxis label');
+                    },
+                    click: function () {
+                        reloadFlash();
+                        $('#report').html('click on second yAxis label');
+                    },
+                    contextmenu: function () {
+                        reloadFlash();
+                        $('#report').html('context menu on second yAxis');
+                    }
+                }
+            }
+        }],
+        xAxis: {
+            labels: {
+                rotation: -45,
+                events: {
+                    dblclick: function () {
+                        reloadFlash();
+                        $('#report').html('dbclick on xAxis label');
+                    },
+                    click: function () {
+                        reloadFlash();
+                        $('#report').html('click on xAxis label');
+                    },
+                    contextmenu: function () {
+                        reloadFlash();
+                        $('#report').html('context menu on xAxis label');
+                    }
+                }
+            },
+            title:{
+                text: 'xAxis title',
+                events: {
+                    dblclick: function () {
+                        reloadFlash();
+                        $('#report').html('dbclick on xAxis title');
+                    },
+                    click: function () {
+                        reloadFlash();
+                        $('#report').html('click on xAxis title');
+                    },
+                    contextmenu: function () {
+                        reloadFlash();
+                        $('#report').html('context menu on xAxis title');
+                    }
+                }
+            }
+        },
+        plotOptions: {
+            series: {
+                dataLabels: {
+                    enabled: true,
+                    events: {
+                        dblclick: function () {
+                            reloadFlash();
+                            $('#report').html('dbclick on datalabel');
+                        },
+                        click: function () {
+                            reloadFlash();
+                            $('#report').html('click on datalabel');
+                        },
+                        contextmenu: function () {
+                            reloadFlash();
+                            $('#report').html('context menu on datalabel');
+                        }
+                    }
+                },
+                events: {
+                    dblclick: function () {
+                        reloadFlash();
+                        $('#report').html('dbclick on serie');
+                    },
+                    click: function () {
+                        reloadFlash();
+                        $('#report').html('click on serie');
+                    },
+                    contextmenu: function () {
+                        reloadFlash();
+                        $('#report').html('context menu on serie');
+                    }
+                },
+                point: {
+                    events: {
+                        dblclick: function () {
+                            reloadFlash();
+                            $('#report').html('dbclick on serie point');
+                        },
+                        click: function () {
+                            reloadFlash();
+                            $('#report').html('click on serie point');
+                        },
+                        contextmenu: function () {
+                            reloadFlash();
+                            $('#report').html('context menu on serie point');
+                        }
+                    }
+                }
+            }
+        },
+        legend: {
+            itemEvents: {
+                dblclick: function () {
+                    reloadFlash();
+                    $('#report').html('dbclick on legend item');
+                },
+                click: function () {
+                    reloadFlash();
+                    $('#report').html('click on legend item');
+                },
+                contextmenu: function () {
+                    reloadFlash();
+                    $('#report').html('context menu on legend item ');
+                }
+            }
+        },
+        series: [{
+            data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135, 43]
+        }, {
+            type: 'column',
+            data: [50, 16, 21, 11, 22, 12]
+        }]
+    });
+});
+    </script>
+
+
+</body>
+
+</html>
+

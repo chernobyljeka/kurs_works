@@ -1,0 +1,32 @@
+C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\KERNEL32.LIB
+C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\USER32.LIB
+C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\GDI32.LIB
+C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\WINSPOOL.LIB
+C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\COMDLG32.LIB
+C:\PROGRAM FILES (X86)\
+e:\work\Recept\Recept\obj\x86\Debug\Recept.exe
+e:\work\Recept\Recept\obj\x86\Debug\Recept.pdb
+e:\work\Recept\Recept\bin\Debug\Recept.exe
+e:\work\Recept\Recept\bin\Debug\Recept.pdb
+e:\work\Recept\Recept\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\work\Recept\Recept\obj\x86\Debug\Recept.Form1.resources
+e:\work\Recept\Recept\obj\x86\Debug\Recept.Properties.Resources.resources
+e:\work\Recept\Recept\obj\x86\Debug\GenerateResource.read.1.tlog
+e:\work\Recept\Recept\obj\x86\Debug\GenerateResource.write.1.tlog
+I:\work\Recept\Recept\obj\x86\Debug\Recept.exe
+I:\work\Recept\Recept\obj\x86\Debug\Recept.pdb
+I:\work\Recept\Recept\bin\Debug\Recept.exe
+I:\work\Recept\Recept\bin\Debug\Recept.pdb
+I:\work\Recept\Recept\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\work\Recept\Recept\obj\x86\Debug\Recept.Form1.resources
+I:\work\Recept\Recept\obj\x86\Debug\Recept.Properties.Resources.resources
+I:\work\Recept\Recept\obj\x86\Debug\GenerateResource.read.1.tlog
+I:\work\Recept\Recept\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\VS\work\Recept\Recept\obj\x86\Debug\Recept.exe
+E:\VS\work\Recept\Recept\obj\x86\Debug\Recept.pdb
+E:\VS\work\Recept\Recept\obj\x86\Debug\Recept.csprojResolveAssemblyReference.cache
+E:\VS\work\Recept\Recept\obj\x86\Debug\Recept.Form1.resources
+E:\VS\work\Recept\Recept\obj\x86\Debug\Recept.Properties.Resources.resources
+E:\VS\work\Recept\Recept\obj\x86\Debug\Recept.csproj.GenerateResource.Cache
+E:\Разное\VS\work\Recept\Recept\obj\x86\Debug\Recept.exe
+E:\Разное\VS\work\Recept\Recept\obj\x86\Debug\Recept.pdb

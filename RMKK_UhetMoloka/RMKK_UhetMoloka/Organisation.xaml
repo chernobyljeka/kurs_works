@@ -1,0 +1,38 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:RMKK_UhetMoloka" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="RMKK_UhetMoloka.Organisation"
+        Title="Организации" Height="600" Width="767.91" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" Icon="rmkk.ico" ResizeMode="NoResize">
+    <Window.Resources>
+        <local:RMKK_TTNDataSet x:Key="rMKK_TTNDataSet"/>
+        <CollectionViewSource x:Key="организацииViewSource" Source="{Binding Организации, Source={StaticResource rMKK_TTNDataSet}}"/>
+    </Window.Resources>
+	<Grid DataContext="{StaticResource организацииViewSource}" Margin="0,0,2,0">
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FFACD058"/>
+				<GradientStop Color="#FFF8F8F8" Offset="0.039"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Button Content="Сохранить" HorizontalAlignment="Left" Margin="25.805,17.985,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" BorderBrush="{x:Null}" Template="{DynamicResource MetroStyleButton}" Height="21" Background="{x:Null}"/>
+		<Button Content="Отмена" HorizontalAlignment="Left" Margin="142.534,17.344,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_otmena" BorderBrush="{x:Null}" Template="{DynamicResource MetroStyleButton}" Height="21" Background="{x:Null}"/>
+		<Button x:Name="Add_button" Content="Добавить" HorizontalAlignment="Left" Margin="265.777,17.344,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_add" BorderBrush="{x:Null}" Template="{DynamicResource MetroStyleButton}" Height="21" Background="{x:Null}" Visibility="Hidden"/>
+		<DataGrid x:Name="организацииDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="0,49.319,0,0" RowDetailsVisibilityMode="VisibleWhenSelected">
+			<DataGrid.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="#FFACD058" Offset="1"/>
+					<GradientStop Color="White" Offset="0.866"/>
+				</LinearGradientBrush>
+			</DataGrid.Background>
+			<DataGrid.Columns>
+				<DataGridTextColumn x:Name="код_организацииColumn" Binding="{Binding Код организации}" Header="Код организации" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="наименование_организацииColumn" Binding="{Binding Наименование организации}" Header="Наименование организации" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="юридический_адресColumn" Binding="{Binding Юридический адрес}" Header="Юридический адрес" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="почтовый_адресColumn" Binding="{Binding Почтовый адрес}" Header="Почтовый адрес" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="основной_РСColumn" Binding="{Binding Основной РС}" Header="Основной РС" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="код_обслуживающего_банкаColumn" Binding="{Binding Код обслуживающего банка}" Header="Код обслуживающего банка" Width="SizeToHeader"/>
+			</DataGrid.Columns>
+		</DataGrid>
+
+	</Grid>
+</Window>

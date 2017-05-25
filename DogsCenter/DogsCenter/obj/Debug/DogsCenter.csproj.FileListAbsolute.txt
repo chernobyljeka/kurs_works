@@ -1,0 +1,97 @@
+E:\VS\DogsCenter\DogsCenter\bin\Debug\DogsCenter.exe.config
+E:\VS\DogsCenter\DogsCenter\bin\Debug\DogsCenter.exe
+E:\VS\DogsCenter\DogsCenter\bin\Debug\DogsCenter.pdb
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.csprojResolveAssemblyReference.cache
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Form1.resources
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Properties.Resources.resources
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.csproj.GenerateResource.Cache
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.exe
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.pdb
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterSplashScreen.resources
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterAdd.resources
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterSettings.resources
+E:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogCenterAbout.resources
+E:\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.dll
+E:\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.SqlServer.dll
+E:\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.dll
+E:\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.EF6.dll
+E:\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.Linq.dll
+E:\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.xml
+E:\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.SqlServer.xml
+E:\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.pdb
+E:\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.EF6.pdb
+E:\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.Linq.pdb
+d:\VS\DogsCenter\DogsCenter\bin\Debug\DogsCenter.exe.config
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.exe
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.pdb
+d:\VS\DogsCenter\DogsCenter\bin\Debug\DogsCenter.exe
+d:\VS\DogsCenter\DogsCenter\bin\Debug\DogsCenter.pdb
+d:\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.dll
+d:\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.SqlServer.dll
+d:\VS\DogsCenter\DogsCenter\bin\Debug\mscorlib.dll
+d:\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.xml
+d:\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.SqlServer.xml
+d:\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.pdb
+d:\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.EF6.pdb
+d:\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.Linq.pdb
+d:\VS\DogsCenter\DogsCenter\bin\Debug\ru\mscorlib.resources.dll
+d:\VS\DogsCenter\DogsCenter\bin\Debug\normidna.nlp
+d:\VS\DogsCenter\DogsCenter\bin\Debug\normnfc.nlp
+d:\VS\DogsCenter\DogsCenter\bin\Debug\normnfd.nlp
+d:\VS\DogsCenter\DogsCenter\bin\Debug\normnfkc.nlp
+d:\VS\DogsCenter\DogsCenter\bin\Debug\normnfkd.nlp
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.csprojResolveAssemblyReference.cache
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogCenterAbout.resources
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterAdd.resources
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterSettings.resources
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterSplashScreen.resources
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Form1.resources
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Properties.Resources.resources
+d:\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.csproj.GenerateResource.Cache
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\DogsCenter.exe.config
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.exe
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.pdb
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\DogsCenter.exe
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\DogsCenter.pdb
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.dll
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.SqlServer.dll
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\mscorlib.dll
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.xml
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\EntityFramework.SqlServer.xml
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.pdb
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.EF6.pdb
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\System.Data.SQLite.Linq.pdb
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\ru\mscorlib.resources.dll
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\normidna.nlp
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\normnfc.nlp
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\normnfd.nlp
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\normnfkc.nlp
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\bin\Debug\normnfkd.nlp
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.csprojResolveAssemblyReference.cache
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogCenterAbout.resources
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterAdd.resources
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterSettings.resources
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterSplashScreen.resources
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Form1.resources
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Properties.Resources.resources
+f:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.csproj.GenerateResource.Cache
+F:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Form2.resources
+F:\Учёба\Третий курс\КПиЯП\Курсач Деда\VS\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Form3.resources
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\bin\Debug\DogsCenter.exe.config
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.exe
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.pdb
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\bin\Debug\DogsCenter.exe
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\bin\Debug\DogsCenter.pdb
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.csprojResolveAssemblyReference.cache
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogCenterAbout.resources
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterAdd.resources
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterSettings.resources
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.DogsCenterSplashScreen.resources
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Form1.resources
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Form2.resources
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Form3.resources
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.Properties.Resources.resources
+D:\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.csproj.GenerateResource.Cache
+E:\VS\DogsCenter_final_version\DogsCenter\DogsCenter\bin\Debug\DogsCenter.exe.config
+E:\VS\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.exe
+E:\VS\DogsCenter_final_version\DogsCenter\DogsCenter\obj\Debug\DogsCenter.pdb

@@ -1,0 +1,32 @@
+E:\Заготовки\Final project\Client\Client\bin\Debug\Client.exe.config
+e:\Заготовки\Final project\Client\Client\bin\Debug\Client.exe
+e:\Заготовки\Final project\Client\Client\bin\Debug\Client.pdb
+e:\Заготовки\Final project\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+e:\Заготовки\Final project\Client\Client\obj\Debug\Client.Form1.resources
+e:\Заготовки\Final project\Client\Client\obj\Debug\Client.Properties.Resources.resources
+e:\Заготовки\Final project\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+e:\Заготовки\Final project\Client\Client\obj\Debug\Client.exe
+e:\Заготовки\Final project\Client\Client\obj\Debug\Client.pdb
+e:\Заготовки\Final project\Client\Client\bin\Debug\NAudio.dll
+D:\курсачи\Client\Client\bin\Debug\Client.exe.config
+D:\курсачи\Client\Client\obj\Debug\Client.exe
+D:\курсачи\Client\Client\obj\Debug\Client.pdb
+D:\курсачи\Client\Client\bin\Debug\Client.exe
+D:\курсачи\Client\Client\bin\Debug\Client.pdb
+D:\курсачи\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\курсачи\Client\Client\obj\Debug\Client.Form1.resources
+D:\курсачи\Client\Client\obj\Debug\Client.Properties.Resources.resources
+D:\курсачи\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+D:\курсачи\Client\Client\obj\Debug\Client.AboutBox1.resources
+D:\курсачи\Client\Client\obj\Debug\Client.set.resources
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\bin\Debug\Client.exe.config
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\obj\Debug\Client.exe
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\obj\Debug\Client.pdb
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\bin\Debug\Client.exe
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\bin\Debug\Client.pdb
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\obj\Debug\Client.AboutBox1.resources
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\obj\Debug\Client.Form1.resources
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\obj\Debug\Client.Properties.Resources.resources
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\obj\Debug\Client.set.resources
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache

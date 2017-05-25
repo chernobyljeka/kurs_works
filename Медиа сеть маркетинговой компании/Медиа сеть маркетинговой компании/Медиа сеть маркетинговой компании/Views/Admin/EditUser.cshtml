@@ -1,0 +1,19 @@
+﻿@model Медиа_сеть_маркетинговой_компании.Models.User
+@{
+    ViewBag.Title = "Редактирование профиля";
+    Layout = "~/Views/Shared/_LayoutRooms1.cshtml";
+    ViewBag.Section_Title = "Редактирование профиля";
+    ViewBag.Title = "Административная панель";
+}
+<div class="module_content">
+    @using (Html.BeginForm())
+    {
+        <fieldset style="width:48%; float:left;">
+            @Html.HiddenFor(u => u.Id)
+            @Html.HiddenFor(u => u.RoleId)
+            @Html.EditorFor(u => u.Email)
+            @Html.EditorFor(u => u.Password)
+            <input type="submit" value="okey">
+        </fieldset>
+    }
+</div>

@@ -1,0 +1,43 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:RMKK_UhetMoloka" x:Class="RMKK_UhetMoloka.Sotrudniki"
+        Title="Сотрудники" Height="510.836" Width="589.645" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="rmkk.ico">
+    <Window.Resources>
+        <local:RMKK_TTNDataSet x:Key="rMKK_TTNDataSet"/>
+        <CollectionViewSource x:Key="сотрудникиViewSource" Source="{Binding Сотрудники, Source={StaticResource rMKK_TTNDataSet}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource сотрудникиViewSource}" Margin="0,0,-1,0">
+    	<Grid.Background>
+    		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+    			<GradientStop Color="#E5ACD058"/>
+    			<GradientStop Color="White" Offset="0.09"/>
+    		</LinearGradientBrush>
+    	</Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="237*"/>
+            <ColumnDefinition Width="58*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="сотрудникиDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" RowDetailsVisibilityMode="VisibleWhenSelected" Height="432.879" VerticalAlignment="Top" Margin="0,47.957,0,0" Grid.ColumnSpan="2" BorderBrush="{x:Null}">
+        	<DataGrid.Background>
+        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        			<GradientStop Color="#FFACD058" Offset="1"/>
+        			<GradientStop Color="White" Offset="0.784"/>
+        		</LinearGradientBrush>
+        	</DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="код_сотрудникаColumn" Binding="{Binding Код сотрудника}" Header="Код сотрудника" Width="120"/>
+                <DataGridTextColumn x:Name="фамилияColumn" Binding="{Binding Фамилия}" Header="Фамилия" Width="100"/>
+                <DataGridTextColumn x:Name="имяColumn" Binding="{Binding Имя}" Header="Имя" Width="100"/>
+                <DataGridTextColumn x:Name="отчествоColumn" Binding="{Binding Отчество}" Header="Отчество" Width="100"/>
+                <DataGridTextColumn x:Name="должностьColumn" Binding="{Binding Должность}" Header="Должность" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="15.667,18.5,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" BorderBrush="{x:Null}" Template="{DynamicResource MetroStyleButton}" Height="21" FontFamily="HelveticaNeueCyr" Background="{x:Null}"/>
+        <Button x:Name="Add_button" Content="Добавить" HorizontalAlignment="Left" Margin="239,18.5,0,0" VerticalAlignment="Top" Width="100" BorderBrush="{x:Null}" Template="{DynamicResource MetroStyleButton}" Background="{x:Null}" FontFamily="Harrington" Height="21" Visibility="Hidden"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="Button_Click_otmena" BorderBrush="{x:Null}" Template="{DynamicResource MetroStyleButton}" Height="21" FontFamily="HelveticaNeueCyr" Background="{x:Null}" Margin="125.667,18.5,0,0"/>
+
+    </Grid>
+</Window>

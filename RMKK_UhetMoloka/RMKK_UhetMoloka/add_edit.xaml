@@ -1,0 +1,49 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:RMKK_UhetMoloka"
+        x:Class="RMKK_UhetMoloka.add_edit"
+        Title="add_edit" Height="264" Width="655" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" ResizeMode="NoResize" Icon="rmkk.ico">
+    <Grid Margin="0,0,4,2" x:Name="grid1">
+        <GroupBox Header="Информация о перевозке" Margin="10,10,10,-144" VerticalAlignment="Top" Height="172">
+            <Grid HorizontalAlignment="Left" Margin="0,10,-2,2" Width="615">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="107*"/>
+                    <ColumnDefinition Width="206*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock HorizontalAlignment="Left" Margin="10,40,0,0" TextWrapping="Wrap" Text="Поставщик" VerticalAlignment="Top" Height="16" Width="69"/>
+                <TextBlock HorizontalAlignment="Left" Margin="130,40,0,0" TextWrapping="Wrap" Text="Водитель" VerticalAlignment="Top" Height="16" Width="69"/>
+                <TextBlock HorizontalAlignment="Left" Margin="45,40,0,0" TextWrapping="Wrap" Text="Автомобиль" VerticalAlignment="Top" Height="16" Width="73" Grid.Column="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="167,40,0,0" TextWrapping="Wrap" Text="Отпуск произвел" VerticalAlignment="Top" Grid.Column="1" Height="16" Width="107"/>
+                <TextBlock HorizontalAlignment="Left" Margin="289,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Height="16" Width="93" Text="Товар принял"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,14,0,0" TextWrapping="Wrap" Text="Код ТТН" VerticalAlignment="Top" Height="16" Width="50"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,86,0,0" TextWrapping="Wrap" Text="Пункт погрузки" VerticalAlignment="Top" Height="16" Width="103"/>
+                <TextBlock HorizontalAlignment="Left" Margin="118,86,0,0" TextWrapping="Wrap" Text="Пункт разгрузки" VerticalAlignment="Top" Height="16" Width="97" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Left" Margin="44,86,0,0" TextWrapping="Wrap" Text="Дата" VerticalAlignment="Top" Height="16" Width="66" Grid.Column="1"/>
+                <TextBlock HorizontalAlignment="Left" Margin="136,86,0,0" TextWrapping="Wrap" Text="Цена" VerticalAlignment="Top" Grid.Column="1" Height="16" Width="107"/>
+                <TextBlock HorizontalAlignment="Left" Margin="249,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Height="16" Width="93" Text="Количество"/>
+                <TextBox x:Name="tb_kod" HorizontalAlignment="Left" Height="20" Margin="66,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" SpellCheck.IsEnabled="True"/>
+                <TextBox x:Name="tb_post" HorizontalAlignment="Left" Height="20" Margin="10,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87" SpellCheck.IsEnabled="True"/>
+                <TextBox x:Name="tb_vod" HorizontalAlignment="Left" Height="20" Margin="128,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" SpellCheck.IsEnabled="True" Grid.ColumnSpan="2"/>
+                <TextBox x:Name="tb_av" HorizontalAlignment="Left" Height="20" Margin="45,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" SpellCheck.IsEnabled="True" Grid.Column="1"/>
+                <TextBox x:Name="tb_ot" HorizontalAlignment="Left" Height="20" Margin="167,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="96" SpellCheck.IsEnabled="True" Grid.Column="1"/>
+                <TextBox x:Name="tb_pr" HorizontalAlignment="Left" Height="20" Margin="289,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" SpellCheck.IsEnabled="True" Grid.Column="1"/>
+                <TextBox x:Name="tb_p2" HorizontalAlignment="Left" Height="20" Margin="118,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97" SpellCheck.IsEnabled="True" Grid.ColumnSpan="2"/>
+                <TextBox x:Name="tb_z" HorizontalAlignment="Left" Height="20" Margin="136,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" SpellCheck.IsEnabled="True" Grid.Column="1"/>
+                <TextBox x:Name="tb_kol" HorizontalAlignment="Left" Height="20" Margin="249,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" SpellCheck.IsEnabled="True" Grid.Column="1"/>
+
+
+                <local:MyMaskedTextBox x:Name="tb_data" Grid.Column="1" HorizontalAlignment="Left" Margin="34,106,0,0" TextWrapping="Wrap" Mask="00/00/0000"  VerticalAlignment="Top" Width="80" Height="21"/>
+                <Button x:Name="insert_p" Content="..." Height="20" Margin="97,61,97,0" VerticalAlignment="Top" Background="White" BorderThickness="0,1,1,1" BorderBrush="#FFABADB3" Click="insert_p_Click"/>
+                <Button x:Name="insert_v" Content="..." HorizontalAlignment="Left" Height="20" Margin="209,61,0,0" VerticalAlignment="Top" Width="16" RenderTransformOrigin="-0.25,0.5" Grid.ColumnSpan="2" Background="White" BorderThickness="0,1,1,1" BorderBrush="#FFABADB3" Click="insert_v_Click"/>
+                <Button x:Name="insert_a" Content="..." HorizontalAlignment="Left" Height="20" Margin="128,61,0,0" VerticalAlignment="Top" Width="16" RenderTransformOrigin="11.25,1.85" Grid.Column="1" Background="White" BorderThickness="0,1,1,1" BorderBrush="#FFABADB3" Click="insert_a_Click"/>
+                <TextBox x:Name="tb_p1" HorizontalAlignment="Left" Height="20" Margin="14,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" SpellCheck.IsEnabled="True"/>
+
+
+            </Grid>
+        </GroupBox>
+        <Button x:Name="cancel_button" Content="Отмена" HorizontalAlignment="Left" Height="23" Margin="549,186,0,0" VerticalAlignment="Top" Width="75" Background="#332698B2"/>
+        <Button x:Name="save_button" Content="Сохранить" HorizontalAlignment="Left" Height="23" Margin="459,187,0,0" VerticalAlignment="Top" Width="75" Background="#332698B2"/>
+
+    </Grid>
+</Window>

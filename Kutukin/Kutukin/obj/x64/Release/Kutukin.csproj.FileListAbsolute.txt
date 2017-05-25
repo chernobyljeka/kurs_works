@@ -1,0 +1,15 @@
+D:\VS\Kutukin\Kutukin\bin\x64\Release\Kutukin.exe.config
+D:\VS\Kutukin\Kutukin\bin\x64\Release\Kutukin.exe
+D:\VS\Kutukin\Kutukin\bin\x64\Release\Kutukin.pdb
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.AboutBox1.resources
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.add_edit.resources
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.Clients.resources
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.Client_add.resources
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.edit.resources
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.Form1.resources
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.Properties.Resources.resources
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.tech_add.resources
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.uslugi_add.resources
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.csproj.GenerateResource.Cache
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.exe
+D:\VS\Kutukin\Kutukin\obj\x64\Release\Kutukin.pdb

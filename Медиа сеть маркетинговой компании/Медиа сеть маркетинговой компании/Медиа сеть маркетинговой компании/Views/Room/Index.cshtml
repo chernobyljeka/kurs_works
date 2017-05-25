@@ -1,0 +1,67 @@
+﻿@model List<Медиа_сеть_маркетинговой_компании.Models.Advert>
+@{
+    Layout = "~/Views/Shared/Rooms.cshtml";
+    ViewBag.Section_Title = "Доска объявлений";
+    ViewBag.Title = "Личная комната";
+}
+@{
+    if (Model.ToList().Count() > 0)
+    {
+        <article class="module width_3_quarter">
+            <header>
+                <h3 class="tabs_involved">Списсок обьявлений</h3>
+                <ul class="tabs">
+                    <li><a href="#tab1">Обьявления</a></li>
+                </ul>
+            </header>
+
+            <div class="tab_container">
+                <div id="tab1" class="tab_content">
+                    <table class="tablesorter" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>№</th>
+                                <th>Текст</th>
+                                <th>Категория</th>
+                                <th>Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Медиа_сеть_маркетинговой_компании.Models.Advert a in Model)
+                            {
+                                <tr>
+                                    <td>@a.id</td>
+                                    <td>@a.msg</td>
+                                    <td>Реклама</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div><!-- end of #tab1 -->
+
+            </div><!-- end of .tab_container -->
+
+        </article><!-- end of content manager article -->
+
+    }
+    else
+    {
+        <article class="module width_3_quarter">
+            <header>
+                <h3 class="tabs_involved">Списсок обьявлений</h3>
+                <ul class="tabs">
+                    <li><a href="#tab1">Обьявления</a></li>
+                </ul>
+            </header>
+
+            <div class="tab_container">
+                <div id="tab1" class="tab_content">
+                    <p>Список ваших рекламных объявлений пуст</p>
+                </div><!-- end of #tab1 -->
+
+            </div><!-- end of .tab_container -->
+
+        </article><!-- end of content manager article -->
+
+    }
+}

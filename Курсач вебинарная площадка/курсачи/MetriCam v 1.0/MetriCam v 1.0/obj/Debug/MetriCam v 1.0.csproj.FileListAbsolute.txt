@@ -1,0 +1,52 @@
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.exe.config
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.exe
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.pdb
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam.dll
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\WebCam.dll
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\de\MetriCam.resources.dll
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\en\MetriCam.resources.dll
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0.Form1.resources
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0.Properties.Resources.resources
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.csproj.GenerateResource.Cache
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.exe
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.pdb
+E:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\NAudio.dll
+e:\Заготовки\Final project\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.csprojResolveAssemblyReference.cache
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.exe.config
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.exe
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.pdb
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.exe
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.pdb
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\de\MetriCam.resources.dll
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\en\MetriCam.resources.dll
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.csprojResolveAssemblyReference.cache
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0.Form1.resources
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0.Properties.Resources.resources
+D:\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.csproj.GenerateResource.Cache
+D:\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.exe.config
+D:\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.exe
+D:\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.pdb
+E:\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.exe.config
+E:\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.exe
+E:\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.pdb
+E:\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.exe
+E:\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.pdb
+E:\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\de\MetriCam.resources.dll
+E:\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\en\MetriCam.resources.dll
+E:\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.csprojResolveAssemblyReference.cache
+E:\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0._2.resources
+E:\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0.Form1.resources
+E:\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0.Properties.Resources.resources
+E:\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.csproj.GenerateResource.Cache
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.exe.config
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.exe
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.pdb
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.exe
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\MetriCam v 1.0.pdb
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\de\MetriCam.resources.dll
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\bin\Debug\en\MetriCam.resources.dll
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.csprojResolveAssemblyReference.cache
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0._2.resources
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0.Form1.resources
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam_v_1._0.Properties.Resources.resources
+D:\VS\Курсачи\Курсач вебинарная площадка\курсачи\MetriCam v 1.0\MetriCam v 1.0\obj\Debug\MetriCam v 1.0.csproj.GenerateResource.Cache

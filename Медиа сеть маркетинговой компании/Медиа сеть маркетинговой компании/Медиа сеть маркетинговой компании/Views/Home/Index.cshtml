@@ -1,0 +1,553 @@
+﻿@model  Медиа_сеть_маркетинговой_компании.Models.LoginModel
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Медиа сеть маркетинговой компании</title>
+    <link href='~/Content/css/font1.css' rel='stylesheet' type='text/css'>
+    <link href='~/Content/css/font2.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/Content/css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="~/Content/css/style.css"> <!-- Gem style -->
+    <script src="~/Content/js/modernizr.js"></script> <!-- Modernizr -->
+
+    
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="~/Content/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <script src="~/Content/js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="~/Content/css/indexpage_style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="~/Content/js/move-top.js"></script>
+    <script type="text/javascript" src="~/Content/js/easing.js"></script>
+    <!---- start-smoth-scrolling---->
+    <!-- webfonts -->
+   
+</head>
+
+<body>
+
+    <!-- container -->
+    <div id="home" class="header-bg">
+        <div class="container">
+            <!-- header -->
+            <div class="header">
+                <!-- logo -->
+                <div class="logo">
+                    <a href="index.html"><img src="~/Content/images/logo.png" title="МедиаСеть" /></a>
+                </div>
+                <!-- /logo -->
+                <!-- top-nav -->
+
+                <div class="menu">
+                    <a class="toggleMenu" href="#"><img src="~/Content/images/nav.png" alt="" /></a>
+                    <ul class="nav" id="nav">
+                        <li class="active"><a class="scroll" href="#home">ГЛАВНАЯ<span> </span></a></li>
+                        <li><a class="scroll" href="#services">ПРЕИМУЩЕСТВА<span> </span></a></li>
+                        <li><a class="scroll" href="#about">О НАС<span> </span></a></li>
+                        <li><a class="scroll" href="#contact">КОНТАКТЫ<span> </span></a></li>
+                        <div class="clearfix"></div>
+                    </ul>
+                    <script type="text/javascript" src="~/Content/js/responsive-nav.js"></script>
+                    <script type="text/javascript">
+                        jQuery(document).ready(function ($) {
+                            $(".scroll").click(function (event) {
+                                event.preventDefault();
+                                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1500);
+                            });
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"> </div>
+                <!-- /top-nav -->
+            </div>
+            <!-- /header -->
+            <!-- header-info -->
+            <div class="header-info">
+                <h1>Медиасеть маркетинговой компании</h1>
+                <p>Хочешь продвинуть свой бизнес или подзаработать на рекламе? Присоеденяйся!</p>
+                <ul>
+                    <li>
+                        <a class="r-btn cd-signin" href="#0">Вход</a>
+                    </li>
+                    <li>
+                        <a class="d-btn cd-signup" href="#">Регистрация</a>
+                    </li>
+                    <div class="clearfix"> </div>
+                </ul>
+            </div>
+            <!-- header-info -->
+            <!-- chart -->
+            <div class="chart">
+                <span> </span>
+            </div>
+            <!-- chart -->
+        </div>
+        <!-- /header-bg -->
+    </div>
+    <!-- services -->
+    <div id="services" class="services">
+        <div class="container">
+            <div class="header-section text-center">
+                <h3>Преимущества</h3>
+                <p>Выбирая нас вы получаете массу возможностей для продвижения своего бизнеса или проекта.</p>
+            </div>
+            <!-- services-grids -->
+            <div class="service-grids">
+                <div class="col-md-3 service-grid text-center">
+                    <span class="s-icon1 float-shadow"> </span>
+                    <h4>Ссылочное наполнение</h4>
+                    <label> </label>
+                    <p>Улучшенное ранжирование Вашего ресурса, за счет ссылочного наполнения.</p>
+                </div>
+                <div class="col-md-3 service-grid text-center">
+                    <span class="s-icon2 float-shadow"> </span>
+                    <h4>Маркетинговые стратегии</h4>
+                    <label> </label>
+                    <p>Увеличение товарооборота за счет привлечения заинтересованных лиц.</p>
+                </div>
+                <div class="col-md-3 service-grid text-center">
+                    <span class="s-icon3 float-shadow"> </span>
+                    <h4>Сбор статисстики</h4>
+                    <label> </label>
+                    <p>Для улучшения качества нашего сервиса ежедневно проводиться сбор статистической информации.</p>
+                </div>
+                <div class="col-md-3 service-grid text-center">
+                    <span class="s-icon4 float-shadow"> </span>
+                    <h4>Политика конфеденциальности</h4>
+                    <label> </label>
+                    <p>В рекламных обьявлениях публикуются только общедоступные данные.</p>
+                </div>
+                <div class="col-md-3 service-grid text-center">
+                    <span class="s-icon5 float-shadow"> </span>
+                    <h4>Двунаправленная связь</h4>
+                    <label> </label>
+                    <p>Есть вопросы или предложения? Воспользуйтесь формой обратной связи. Мы обязательно Вам ответим.</p>
+                </div>
+                <div class="col-md-3 service-grid text-center">
+                    <span class="s-icon6 float-shadow"> </span>
+                    <h4>Стабильный заробаток</h4>
+                    <label> </label>
+                    <p>Зарабатывай на своем ресурсе путем публикации рекламных обьявлений.</p>
+                </div>
+                <div class="col-md-3 service-grid text-center">
+                    <span class="s-icon7 float-shadow"> </span>
+                    <h4>Адаптивность</h4>
+                    <label> </label>
+                    <p>Теперь доступен на всех устройствах! Внезависимости от размеров и платформы.</p>
+                </div>
+                <div class="col-md-3 service-grid text-center">
+                    <span class="s-icon8 float-shadow"> </span>
+                    <h4>Результаты деятельности</h4>
+                    <label> </label>
+                    <p>Анализируй свою деятельность! Результаты деятельности представленны высокоточными графиками.</p>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <!-- services-grids -->
+        </div>
+    </div>
+    <!-- services -->
+    <!-- contact-section -->
+    <div class="contact-section text-center">
+        <div class="container">
+            <div class="contact-section-info">
+                <h2>Задавайте свои вопросы или вносите предложения круглосуточно. Служба технической поддержки работает в режиме "24/7"</h2>
+                <a class="c-btn scroll" href="#contact">Перейти к контактам</a>
+            </div>
+        </div>
+        <div class="contact-section-mask">
+            <span> </span>
+        </div>
+    </div>
+    <!-- contact-section -->
+    <!-- about-section -->
+    <div id="about" class="about-section">
+        <div class="container">
+            <div class="header-section text-center">
+                <h3>О нас</h3>
+                <p>Что такое медиа сеть? Медиасеть - это площадка для размещения рекламного контента, с возможностью стабильного зароботка.</p>
+            </div>
+            <!-- about-section-grids -->
+            <div class="about-section-grids">
+                <div class="col-md-6 about-section-left">
+                    <h4>Как это работает?<span> </span></h4>
+                    <p>
+                        Для размещения рекламного объявления не нужно быть владельцем популярной страницей
+                        или веб-сайтом. Достаточно зарегистрироваться в системе и войти в административную панель.
+                        После чего откроется возможность рекламировать свой продукцию или услуги.
+                    </p>
+                    <p class="m_5">
+                        Для заработка на рекламных объявлениях необходимо владеть популярным интернет ресурсом
+                        или страницей в социальных сетях и других сервисах, которые могут выступать в роли пиар-
+                        площадки (предпочтительно Вконтакте, Instagram, YouTube).
+                    </p>
+                    <p class="m_5">
+                        Зачем это нам? Как и любая медиасеть мы стремимся получить свою прибыль. Не только вы получаете доход
+                        от привлечения на рекламируемый ресурс посетителей и клиентов. Мы также получаем выгоду от каждого
+                        перехода по рекламному объвлению в размере 15% от тарифа за один переход. Учитывая, что вы при этом
+                        зарабатываете 85% от тарифа. Честная и простая схема для заработка в интернете.
+                    </p>
+                    <p class="m_5">
+                        В случае, если Вы заметили любое нарушие с нашей стороны или со стороны наших пользователей, просим
+                        сообщить немедленно. В случае если наруешиние присутвует, то мы предпринем меры по его устранению в
+                        кротчайшие сроки.Для этого можно воспользоваться <a class="scroll" href="#contact">формой обратной связи</a>.
+                        Для ускорения процесса устранения даного нарушения просим указывать в теме письма слово "НАРУШЕНИЕ".
+                        Спасибо за понимание!
+                </div>
+                <div class="col-md-6 about-section-right">
+                    <h4>Наши компании-клиенты<span> </span></h4>
+                    <div class="client-grids">
+                        <!-- requried-jsfiles-for owl -->
+                        <link href="~/Content/css/owl.carousel.css" rel="stylesheet">
+                        <script src="~/Content/js/owl.carousel.js"></script>
+                        <script>
+                            $(document).ready(function () {
+                                $("#owl-demo").owlCarousel({
+                                    items: 1,
+                                    lazyLoad: true,
+                                    autoPlay: true,
+                                    navigation: false,
+                                    navigationText: false,
+                                    pagination: true,
+                                });
+                            });
+                        </script>
+                        <!-- //requried-jsfiles-for owl -->
+                        <!-- start content_slider -->
+                        <div id="owl-demo" class="owl-carousel text-center">
+                            <div class="item">
+                                <ul>
+                                    <li><a href="http://www.tut.by/" target="_blank"><img src="~/Content/images/client-pic1.jpg" class="img-responsive" title="tut.by" /></a></li>
+                                    <li><a href="http://www.onliner.by/" target="_blank"><img src="~/Content/images/client-pic2.jpg" class="img-responsive" title="onliner.by" /></a></li>
+                                    <li><a href="https://iqoption.com/" target="_blank"><img src="~/Content/images/client-pic3.jpg" class="img-responsive" title="IQ Option" /></a></li>
+                                    <li><a href="http://sergeymavrodi-mmm.org/" target="_blank"><img src="~/Content/images/client-pic4.jpg" class="img-responsive" title="МММ" /></a></li>
+                                    <li><a href="https://www.fxclub.org/" target="_blank"><img src="~/Content/images/client-pic5.jpg" class="img-responsive" title="Forex Club" /></a></li>
+                                    <li><a href="https://webtransfer.com/" target="_blank"><img src="~/Content/images/client-pic6.jpg" class="img-responsive" title="Webtransfer-Finanse" /></a></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <ul>
+                                    <li><a href="http://www.tut.by/" target="_blank"><img src="~/Content/images/client-pic1.jpg" class="img-responsive" title="tut.by" /></a></li>
+                                    <li><a href="http://www.onliner.by/" target="_blank"><img src="~/Content/images/client-pic2.jpg" class="img-responsive" title="onliner.by" /></a></li>
+                                    <li><a href="https://iqoption.com/" target="_blank"><img src="~/Content/images/client-pic3.jpg" class="img-responsive" title="IQ Option" /></a></li>
+                                    <li><a href="http://sergeymavrodi-mmm.org/" target="_blank"><img src="~/Content/images/client-pic4.jpg" class="img-responsive" title="МММ" /></a></li>
+                                    <li><a href="https://www.fxclub.org/" target="_blank"><img src="~/Content/images/client-pic5.jpg" class="img-responsive" title="Forex Club" /></a></li>
+                                    <li><a href="https://webtransfer.com/" target="_blank"><img src="~/Content/images/client-pic6.jpg" class="img-responsive" title="Webtransfer-Finanse" /></a></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <ul>
+                                    <li><a href="http://www.tut.by/" target="_blank"><img src="~/Content/images/client-pic1.jpg" class="img-responsive" title="tut.by" /></a></li>
+                                    <li><a href="http://www.onliner.by/" target="_blank"><img src="~/Content/images/client-pic2.jpg" class="img-responsive" title="onliner.by" /></a></li>
+                                    <li><a href="https://iqoption.com/" target="_blank"><img src="~/Content/images/client-pic3.jpg" class="img-responsive" title="IQ Option" /></a></li>
+                                    <li><a href="http://sergeymavrodi-mmm.org/" target="_blank"><img src="~/Content/images/client-pic4.jpg" class="img-responsive" title="МММ" /></a></li>
+                                    <li><a href="https://www.fxclub.org/" target="_blank"><img src="~/Content/images/client-pic5.jpg" class="img-responsive" title="Forex Club" /></a></li>
+                                    <li><a href="https://webtransfer.com/" target="_blank"><img src="~/Content/images/client-pic6.jpg" class="img-responsive" title="Webtransfer-Finanse" /></a></li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="clearfix"> </div>
+                <!-- about-section-grids -->
+            </div>
+
+            <!-- about-section -->
+        </div>
+        <!-- what-we-do-section -->
+        <div class="what-we-do-section">
+            <div class="container">
+                <div class="what-we-do-section-info text-center">
+                    <a class="play" href="https://www.youtube.com/channel/UCq-6et8UG5dIpI5WKvI9VVQ" target="_blank"><span> </span></a>
+                    <h3>Мы также зарабатываем на портнерских программах</h3>
+                    <p>Смотрите Наш YouTube-канал и узнавайте много нового и увлекательного!</p>
+                </div>
+            </div>
+            <div class="what-we-do-mask">
+                <span> </span>
+            </div>
+        </div>
+        <!-- what-we-do-section -->
+        <div class="container">
+            <!-- team-section -->
+            <div class="team-section">
+                <div class="team-members">
+                    <h4>Топ пиар-менеджеров<span> </span></h4>
+                    <!-- team-member-grids -->
+                    <div class="team-member-grids">
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member1.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Юрий Хованский</h5>
+                                <p><span>Видио-блогер</span><label>Стендап и юмор</label></p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member2.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Александр Андреенко</h5>
+                                <p><span>Видео-блогер</span><label>Тест-драйвы</label></p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member3.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Евгений Захарченко</h5>
+                                <p><span>Маркетолог</span><label>Сетевой маркетинг</label></p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member4.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Carl Marx</h5>
+                                <p><span>Пиар-менеджер</span><label>Капиталист</label></p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member5.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Игорь Лапаев</h5>
+                                <p><span>Видео-блогер</span><label>Путешествия и отдых</label></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member6.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Игорь Третьяк</h5>
+                                <p><span>Медиа менеджер</span><label>Организация клубных вечеренок</label></p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member7.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Вадим Пусенков</h5>
+                                <p><span>Шоумен</span><label>Пиар Instagram-профилей</label></p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member8.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Алесь Чикатило</h5>
+                                <p><span>Программист</span><label>Team Leader</label></p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member9.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Шинтарь Киррил</h5>
+                                <p><span>Видео-блогер</span><label>Обзоры на "илитный" алкоголь</label></p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-pic">
+                                <img src="~/Content/images/team-member10.jpg" class="img-responsive" title="name" />
+                            </div>
+                            <div class="team-member-info">
+                                <h5>Олег Курницов</h5>
+                                <p><span>Бизнесмен</span><label>Организация здорового образа жизни</label></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- team-member-grids -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team-section -->
+    <!-- contact-section -->
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grids">
+                <div class="col-md-6 contact-left">
+                    <a href="#"><img src="~/Content/images/logo.png" class="img-responsive" title="Медиа сеть" /></a>
+                    <p>Спасибо, что выбрали именно НАС. Если есть вопросы вы можете свзязаться с нами по телефону (с 8.00 до 20.00 ежедневно без выходных) указоному ниже или через форму обратной связи круглосуточно. Мы обзятельно Вам ответим!</p>
+                    <label> </label>
+                    <ul>
+                        <li><span class="co-icon1"> </span>Республика Беларусь, г. Пинск, ул. ИПД 20</li>
+                        <li><span class="co-icon2"> </span>+375 44 726-16-78</li>
+                        <li><span class="co-icon3"> </span><a href="mailto:chernobyljeka@gmail.com">chernobyljeka@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 contact-right">
+                    <h4>Контакты<span> </span></h4>
+                    <p>Вы можете связаться с нами используя форму обратной связи.</p>
+                    <form>
+                        <input type="text" class="text" value="Имя" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Имя';}">
+                        <input type="text" class="text" value="Е-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-meil';}">
+                        <input type="text" class="text" value="Тема" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Тема';}">
+                        <textarea> </textarea>
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact-section -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <p><a href="#">Ded&Bond</a> 2015 &copy;</p>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    <li><a href="#"><span class="in"> </span></a></li>
+                    <li><a href="https://www.facebook.com/evgeny.dedenko.3"><span class="face"> </span></a></li>
+                    <li><a href="https://twitter.com/cjded"><span class="twitter"> </span></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCq-6et8UG5dIpI5WKvI9VVQ"><span class="you"> </span></a></li>
+                    <div class="clearfix"> </div>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <!-- footer -->
+    <!-- /container -->
+
+
+    <div class="cd-user-modal">
+        <!-- все формы на фоне затемнения-->
+        <div class="cd-user-modal-container">
+            <!-- основной контейнер -->
+            <ul class="cd-switcher">
+                <li><a href="#0">Вход</a></li>
+                <li><a href="#0">Регистрация</a></li>
+            </ul>
+
+
+
+            <div id="cd-login">
+                <!-- форма входа -->
+                <form class="cd-form" action="../Account/Login" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="signin-email" name="Name">E-mail</label>
+                        <input class="full-width has-padding has-border" id="signin-email" type="text" placeholder="E-mail" name="Name">
+                        
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signin-password" name="Password">Пароль</label>
+                        <input class="full-width has-padding has-border" id="signin-password" type="text" placeholder="Пароль" name="Password">
+                        <a href="#0" class="hide-password">Скрыть</a>
+                        <span class="cd-error-message" name="Password">Здесь сообщение об ошибке!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <input type="checkbox" id="remember-me" name="remember-me" checked>
+                        <label for="remember-me">Запомнить меня</label>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width" type="submit" value="Войти">
+                    </p>
+                </form>
+                <p class="cd-form-bottom-message"><a href="#0">Забыли свой пароль?</a></p>
+
+                
+                <!-- <a href="#0" class="cd-close-form">Close</a> -->
+            </div> <!-- cd-login -->
+
+            <div id="cd-signup">
+                <!-- форма регистрации -->
+                <form class="cd-form" action="../Account/Register" method="post">
+                    <p class="fieldset">
+                        <label class="image-replace cd-username" for="signup-username">Имя пользователя</label>
+                        <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail" name="name">
+                        <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signup-password" name="Password">Пароль</label>
+                        <input class="full-width has-padding has-border" id="signup-password" type="text" placeholder="Пароль" name="Password">
+                        <a href="#0" class="hide-password">Скрыть</a>
+                    </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signup-password" name="ConfirmPassword">Пароль</label>
+                        <input class="full-width has-padding has-border" id="signup-password" type="text" placeholder="Повторите пароль" name="ConfirmPassword">
+                        <a href="#0" class="hide-password">Скрыть</a>
+                    </p>
+
+                    <p class="fieldset">
+                        <input type="checkbox" id="accept-terms">
+                        <label for="accept-terms">Я согласен с <a href="#0">Условиями</a></label>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width has-padding" type="submit" value="Создать аккаунт">
+                    </p>
+                </form>
+
+                <!-- <a href="#0" class="cd-close-form">Close</a> -->
+            </div> <!-- cd-signup -->
+
+            <div id="cd-reset-password">
+                <!-- форма восстановления пароля -->
+                <p class="cd-form-message">Забыли пароль? Пожалуйста, введите адрес своей электронной почты. Вы получите ссылку, чтобы создать новый пароль.</p>
+
+                <form class="cd-form">
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="reset-email">E-mail</label>
+                        <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+                        <span class="cd-error-message">Здесь сообщение об ошибке!</span>
+                    </p>
+
+                    <p class="fieldset">
+                        <input class="full-width has-padding" type="submit" value="Восстановить пароль">
+                    </p>
+                </form>
+
+                <p class="cd-form-bottom-message"><a href="#0">Вернуться к входу</a></p>
+            </div> <!-- cd-reset-password -->
+            <a href="#0" class="cd-close-form">Закрыть</a>
+        </div> <!-- cd-user-modal-container -->
+    </div> <!-- cd-user-modal -->
+
+    <script src="~/Content/js/main.js"></script> <!-- Gem jQuery -->
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+</body>
+</html>

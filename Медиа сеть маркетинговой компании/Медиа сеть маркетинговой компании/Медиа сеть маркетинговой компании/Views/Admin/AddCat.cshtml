@@ -1,0 +1,9 @@
+﻿@model Медиа_сеть_маркетинговой_компании.Models.Category
+@{
+    Layout = null;
+}
+@using (Html.BeginForm())
+{
+    @Html.EditorFor(u=>u.Name)
+    <input type="submit" value="ok" />
+}

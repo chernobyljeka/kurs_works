@@ -1,0 +1,130 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:RMKK_UhetMoloka" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="RMKK_UhetMoloka.MainWindow"
+        Title="РМKK - Учет молока" Height="650" Width="1117" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize" Icon="rmkk.ico">
+
+    <Window.Resources>
+
+        <local:RMKK_TTNDataSet x:Key="rMKK_TTNDataSet"/>
+        <CollectionViewSource x:Key="отгрузка_молокаViewSource" Source="{Binding Отгрузка_молока, Source={StaticResource rMKK_TTNDataSet}}"/>
+        <Style x:Key="FocusVisual">
+        	<Setter Property="Control.Template">
+        		<Setter.Value>
+        			<ControlTemplate>
+        				<Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+        			</ControlTemplate>
+        		</Setter.Value>
+        	</Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="Shablone" TargetType="{x:Type Button}">
+        	<Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+        	<Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+        	<Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+        	<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        	<Setter Property="BorderThickness" Value="1"/>
+        	<Setter Property="HorizontalContentAlignment" Value="Center"/>
+        	<Setter Property="VerticalContentAlignment" Value="Center"/>
+        	<Setter Property="Padding" Value="1"/>
+        	<Setter Property="Template" Value="{DynamicResource MetroStyleButton}"/>
+        </Style>
+
+    </Window.Resources>
+	<Window.Background>
+		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+			<GradientStop Color="#FFACD058" Offset="1"/>
+			<GradientStop Color="White"/>
+			<GradientStop Color="#FFCCE299" Offset="0.259"/>
+		</LinearGradientBrush>
+	</Window.Background>
+	<Grid HorizontalAlignment="Left" Height="auto" Margin="0,0,0,0" VerticalAlignment="Top" Width="1107" DataContext="{StaticResource отгрузка_молокаViewSource}" Background="White">
+		<Menu HorizontalAlignment="Left" Height="20" Margin="0,0,-8.773,0" VerticalAlignment="Top" Width="1109" Foreground="Black">
+			<Menu.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="#FFACD058"/>
+					<GradientStop Offset="0.996" Color="White"/>
+					<GradientStop Color="#CCB2D365" Offset="0.323"/>
+				</LinearGradientBrush>
+			</Menu.Background>
+			<MenuItem Header="Спавочники" Background="{x:Null}" FontFamily="HelveticaNeueCyr">
+				<MenuItem Header="Банки" Background="{x:Null}" Click="MenuItem_Click_banks"/>
+				<MenuItem Header="Организации" Background="{x:Null}" Click="MenuItem_Click_org"/>
+				<Separator />
+				<MenuItem Header="Сотрудники" Background="{x:Null}" Click="MenuItem_Click_sotr"/>
+				<MenuItem Header="Автомобили" Background="{x:Null}" Click="MenuItem_Click_auto"/>
+			</MenuItem>
+			<MenuItem Header="О программе" Click="MenuItem_Click_about" FontFamily="HelveticaNeueCyr"/>
+		</Menu>
+		<DataGrid x:Name="отгрузка_молокаDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="0,56,0,0" RowDetailsVisibilityMode="VisibleWhenSelected" FontFamily="HelveticaNeueCyr" Height="560" VerticalAlignment="Top">
+			<DataGrid.Background>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="White" Offset="0.78"/>
+					<GradientStop Color="#FFACD058" Offset="1"/>
+				</LinearGradientBrush>
+			</DataGrid.Background>
+			<DataGrid.Columns>
+				<DataGridTextColumn x:Name="код_ТТНColumn" Binding="{Binding Код ТТН}" Header="Код ТТН" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="поставщикColumn" Binding="{Binding Поставщик}" Header="Поставщик" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="водительColumn" Binding="{Binding Водитель}" Header="Водитель" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="автомобильColumn" Binding="{Binding Автомобиль}" Header="Автомобиль" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="отпуск_произвелColumn" Binding="{Binding Отпуск произвел}" Header="Отпуск произвел" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="пункт_погрузкиColumn" Binding="{Binding Пункт погрузки}" Header="Пункт погрузки" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="пункт_разгрузкиColumn" Binding="{Binding Пункт разгрузки}" Header="Пункт разгрузки" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="товар_принялColumn" Binding="{Binding Товар принял}" Header="Товар принял" Width="SizeToHeader"/>
+				<DataGridTemplateColumn x:Name="датаColumn" Header="Дата" Width="100">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate>
+							<DatePicker SelectedDate="{Binding Дата, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
+				<DataGridTextColumn x:Name="ценаColumn" Binding="{Binding Цена}" Header="Цена" Width="95"/>
+				<DataGridTextColumn x:Name="количество_продукцииColumn" Binding="{Binding Количество продукции}" Header="Количество продукции" Width="SizeToHeader"/>
+				<DataGridTextColumn x:Name="всегоColumn" Binding="{Binding Всего}" Header="Всего" Width="95"/>
+			</DataGrid.Columns>
+		</DataGrid>
+		<Button Content="Добавить" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click_add"  RenderTransformOrigin="0.5,0.5" BorderBrush="{x:Null}" FontFamily="HelveticaNeueCyr" Foreground="Black" Height="21" Style="{DynamicResource Shablone}"/>
+
+		<Button Content="Удалить" HorizontalAlignment="Left" Margin="138,25,0,0" VerticalAlignment="Top" Width="110" BorderBrush="{x:Null}" Click="Button_Click_delete" FontFamily="HelveticaNeueCyr" Foreground="Black" Height="21" Style="{DynamicResource Shablone}">
+			<Button.Background>
+				<RadialGradientBrush>
+					<GradientStop Color="#4C33B1D6" Offset="0.629"/>
+					<GradientStop Color="#7FFFFFFF" Offset="1"/>
+				</RadialGradientBrush>
+			</Button.Background>
+		</Button>
+		<Button Content="Изменить" HorizontalAlignment="Left" Margin="261,25,0,0" VerticalAlignment="Top" Width="110" BorderBrush="{x:Null}" Click="Button_Click_edit" FontFamily="HelveticaNeueCyr" Foreground="Black" Height="21" Style="{DynamicResource Shablone}">
+			<Button.Background>
+				<RadialGradientBrush>
+					<GradientStop Color="#4C33B1D6" Offset="0.629"/>
+					<GradientStop Color="#7FFFFFFF" Offset="1"/>
+				</RadialGradientBrush>
+			</Button.Background>
+		</Button>
+		<Button Content="Экспорт в Word" HorizontalAlignment="Left" Margin="391,25,0,0" VerticalAlignment="Top" Width="110" BorderBrush="{x:Null}" Click="Button_Click_2" FontFamily="HelveticaNeueCyr" Foreground="Black" Height="21" Style="{DynamicResource Shablone}">
+			<Button.Background>
+				<RadialGradientBrush>
+					<GradientStop Color="#4C33B1D6" Offset="0.629"/>
+					<GradientStop Color="#7FFFFFFF" Offset="1"/>
+				</RadialGradientBrush>
+			</Button.Background>
+		</Button>
+    </Grid>
+
+
+
+
+
+
+
+
+</Window>

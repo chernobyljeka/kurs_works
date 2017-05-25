@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Обращение ко всем классам осцуществляется через класс &quot;Main&quot;">
+    <Position X="5.385" Y="4.896" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="Курсач_Журавлевич.Program">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсач_Журавлевич.Main">
+    <Position X="2.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Курсач_Журавлевич.Main.Prepod">
+        <TypeIdentifier>
+          <NewMemberFileName>Main.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>zAqYf0gAAGGRAP6HIP+wwAACABAIAAIAAEIAAAAEAL8=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсач_Журавлевич.del">
+    <Position X="7.75" Y="3" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACEAAJAEAACAAAACAAAAAAAAAAIAAgAAAAA=</HashCode>
+      <FileName>del.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсач_Журавлевич.add_and_edit">
+    <Position X="7.75" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAGAAAJAUAACAAAACABAAAAAAAAIAAAAAAIg=</HashCode>
+      <FileName>add_and_edit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсач_Журавлевич.about">
+    <Position X="11" Y="2.75" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EIAAACgAACEQCAUAAgCAAAADAAAIBICAAAAABAAABAA=</HashCode>
+      <FileName>about.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Курсач_Журавлевич.Type_Control">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAABAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

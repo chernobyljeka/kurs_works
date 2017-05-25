@@ -1,0 +1,153 @@
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\csc.exe
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\System.Collections.Immutable.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\vbc.exe
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\VBCSCompiler.exe
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\VBCSCompiler.exe.config
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Медиа сеть маркетинговой компании.dll.config
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Медиа сеть маркетинговой компании.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Медиа сеть маркетинговой компании.pdb
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Antlr3.Runtime.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.SqlServer.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Microsoft.Web.Infrastructure.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Newtonsoft.Json.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Helpers.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Mvc.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Optimization.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Razor.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Deployment.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Razor.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\WebGrease.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.SqlServer.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Helpers.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Mvc.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Optimization.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Razor.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Deployment.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Razor.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Antlr3.Runtime.pdb
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Newtonsoft.Json.xml
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Helpers.resources.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Mvc.resources.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Optimization.resources.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Razor.resources.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.WebPages.resources.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.WebPages.Deployment.resources.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.WebPages.Razor.resources.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\obj\Debug\Медиа сеть маркетинговой компании.csprojResolveAssemblyReference.cache
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\obj\Debug\Медиа сеть маркетинговой компании.dll
+c:\users\bond\documents\visual studio 2015\Projects\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\obj\Debug\Медиа сеть маркетинговой компании.pdb
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\csc.exe
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\System.Collections.Immutable.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\System.Reflection.Metadata.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\vbc.exe
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\VBCSCompiler.exe
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\VBCSCompiler.exe.config
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Медиа сеть маркетинговой компании.dll.config
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Медиа сеть маркетинговой компании.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Медиа сеть маркетинговой компании.pdb
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Antlr3.Runtime.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.SqlServer.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Microsoft.Web.Infrastructure.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Newtonsoft.Json.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Helpers.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Mvc.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Optimization.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Razor.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Deployment.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Razor.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\WebGrease.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.SqlServer.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Helpers.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Mvc.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Optimization.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Razor.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Deployment.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Razor.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Antlr3.Runtime.pdb
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Newtonsoft.Json.xml
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Helpers.resources.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Mvc.resources.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Optimization.resources.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Razor.resources.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.WebPages.resources.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\obj\Debug\Медиа сеть маркетинговой компании.csprojResolveAssemblyReference.cache
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\obj\Debug\Медиа сеть маркетинговой компании.dll
+D:\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\obj\Debug\Медиа сеть маркетинговой компании.pdb
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\csc.exe
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\System.Collections.Immutable.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\System.Reflection.Metadata.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\vbc.exe
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\VBCSCompiler.exe
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\roslyn\VBCSCompiler.exe.config
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Медиа сеть маркетинговой компании.dll.config
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Медиа сеть маркетинговой компании.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Медиа сеть маркетинговой компании.pdb
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Antlr3.Runtime.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.SqlServer.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Microsoft.Web.Infrastructure.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Newtonsoft.Json.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Helpers.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Mvc.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Optimization.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Razor.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Deployment.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Razor.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\WebGrease.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\EntityFramework.SqlServer.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Helpers.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Mvc.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Optimization.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.Razor.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Deployment.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\System.Web.WebPages.Razor.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Antlr3.Runtime.pdb
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\Newtonsoft.Json.xml
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Helpers.resources.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Mvc.resources.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Optimization.resources.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.Razor.resources.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.WebPages.resources.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\obj\Debug\Медиа сеть маркетинговой компании.dll
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\obj\Debug\Медиа сеть маркетинговой компании.pdb
+D:\VS\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\Медиа сеть маркетинговой компании\obj\Debug\Медиа сеть маркетинговой компании.csprojResolveAssemblyReference.cache

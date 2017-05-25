@@ -1,0 +1,32 @@
+﻿<Window x:Class="RMKK_UhetMoloka.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="О программе" Height="289.552" Width="695.522" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="rmkk.ico">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFA6C5FB" Offset="0"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF35C6D4"/>
+                <GradientStop Color="White" Offset="0.322"/>
+                <GradientStop Color="#FF61D2DD" Offset="1"/>
+                <GradientStop Color="#FFE7F8F9" Offset="0.623"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="164" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.405,0.165" Source="logo.png"/>
+        <Button Content="OK" HorizontalAlignment="Left" Height="25" Margin="601,218,0,0" VerticalAlignment="Top" Width="66" Click="close">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFE5EEF1" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Height="143.281" Margin="210,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456.682"><Run FontFamily="HelveticaNeueCyr" Text="Программа для учета поступления молока. Разработана специально для ОАО &quot;Рогачевский молочноконсервный комбинат&quot;. "/><LineBreak/><Run FontFamily="HelveticaNeueCyr"/><LineBreak/><Run FontFamily="HelveticaNeueCyr" Text="Сведения о версии"/><Run FontFamily="HelveticaNeueCyr" Text=": "/><Run FontFamily="HelveticaNeueCyr" Text="ver. 1.0.1"/><LineBreak/><Run FontFamily="HelveticaNeueCyr"/><LineBreak/><Run FontFamily="HelveticaNeueCyr" Text="Авторские права"/><Run FontFamily="HelveticaNeueCyr" Text=": "/><Run FontFamily="HelveticaNeueCyr" Text="Евгений Деденко."/><LineBreak/><Run FontFamily="HelveticaNeueCyr"/><LineBreak/><Run FontFamily="HelveticaNeueCyr" Text="Целевой язык"/><Run FontFamily="HelveticaNeueCyr" Text=": "/><Run FontFamily="HelveticaNeueCyr" Text="Русский  "/><LineBreak/><Run FontFamily="HelveticaNeueCyr" Text="                                                                                                                              2014"/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run Text="&#x9;&#x9;&#x9;&#x9;Деденко Евгений, "/></TextBlock>
+
+    </Grid>
+</Window>
